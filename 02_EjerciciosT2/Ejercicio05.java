@@ -16,6 +16,15 @@ public class Ejercicio05 {
         c2.disparar(200, 200);
         Thread.sleep(2000);
         c2.disparar(200, 200);
+
+        int d1 = c1.getTotalDisparosRealizados();
+        int d2 = c2.getTotalDisparosRealizados();
+
+        System.out.println("El cañon 1 disparo " + d1 + " veces");
+        System.out.println("El cañon 2 disparo " + d2 + " veces");
+
+
+
     }
 
 }
