@@ -14,6 +14,9 @@ public class Ejercicio07 {
 
         double por = ((ini*100) / max);
 
+        //Lo dibujamos 
+        d1.dibujar();
+
 
         //Lo mostramos por pantalla
 
