@@ -46,6 +46,9 @@ public class Ejercicio23 {
             if (tar.sacarDinero(2800, 2222) == true) { 
                 tar.sacarDinero(2800, 2222);
                 System.out.println("Se saco el dinero exitoxamente");
+            }else {
+                System.out.println("No se pudo sacar el dinero");
+                
             }
             
             // consultamos el saldo 
