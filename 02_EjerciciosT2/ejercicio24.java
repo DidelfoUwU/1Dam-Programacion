@@ -39,7 +39,7 @@ public class Ejercicio24 {
             System.out.println(e.getMessage());   
         }
 
-        // guardamos la frases en el archivo 
+        // guardamos la frases en el archivo
 
 
 
