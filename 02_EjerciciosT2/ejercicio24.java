@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-public class ejercicio24 {
+public class Ejercicio24 {
 
     public static void main(String[] args) {
         
