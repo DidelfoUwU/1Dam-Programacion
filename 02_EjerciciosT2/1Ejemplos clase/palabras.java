@@ -13,13 +13,15 @@ public class palabras {
         "byvalue", "cast", "const", "future", "generic", "goto", "inner", "operator", "outer",
         "rest", "var"};
 
+        // la lista que comprueba cuantos quedan
+
         boolean[] com = {false, false, false, false, false, false, false, false, false, false, false, 
             false, false, false, false, false, false, false, false, false, false, false, false, false, 
             false, false, false, false, false, false, false, false, false, false, false, false, false, 
             false, false, false, false, false, false, false, false, false, false, false, false, false,
             false, false, false, false, false, false, false, false, false};
 
-        System.out.println(com.length);
+    
 
     }
 }
