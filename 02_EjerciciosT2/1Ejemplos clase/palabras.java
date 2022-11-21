@@ -13,7 +13,13 @@ public class palabras {
         "byvalue", "cast", "const", "future", "generic", "goto", "inner", "operator", "outer",
         "rest", "var"};
 
-        System.out.println(list.length);
+        boolean[] com = {false, false, false, false, false, false, false, false, false, false, false, 
+            false, false, false, false, false, false, false, false, false, false, false, false, false, 
+            false, false, false, false, false, false, false, false, false, false, false, false, false, 
+            false, false, false, false, false, false, false, false, false, false, false, false, false,
+            false, false, false, false, false, false, false, false, false};
+
+        System.out.println(com.length);
 
     }
 }
