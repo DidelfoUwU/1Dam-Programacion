@@ -1,5 +1,5 @@
 
-public class juego {
+public class palabras {
     public static void main(String[] args) {
         
         // creamos una lista que contenga todas las palabras reservadas de java 
