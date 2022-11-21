@@ -1,10 +1,10 @@
 public class examen06 {
     public static void main(String[] args) throws Exception {
-        char v1 = 'a';
-        char v2 = 'b';
-        char v3 = 'c';
-        char v4 = 'd';
-        char v5 = 'f';
+        char v1 = 2;
+        char v2 = 3;
+        char v3 = 4;
+        char v4 = 5;
+        char v5 = 6;
 
         System.out.println(v1);
         System.out.println(v2);
