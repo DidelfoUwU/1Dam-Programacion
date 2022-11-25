@@ -41,6 +41,7 @@ public class palabras {
             
             // creamos el metodo rompedor del bucle
 
+
             switch (pala) {
 
                 // en caso de escribir x cambiamos el valor de la variable que utilizamos para terminar el bucle 
@@ -50,19 +51,20 @@ public class palabras {
                     break;
 
                 default:
+            
 
                     // creamos un bucle que recorra la lista de las palabras reservadas 
     
                     
 
-                    for (int i = 0; i < list.length; i++) 
+                    for (int i = 0; i < list.length; i++){
 
                         // comprobamos que la palabra introducida corresponda con alguna de la lista 
                 
-                        if (pala == list[i]) {
+                        if (pala == "var") {
                             com[i] = pala;
                             a++; 
-                            System.out.println(a);
+                            System.out.println("prueba");
 
                             if (a == list.length){
                                 fin = true;
@@ -70,9 +72,8 @@ public class palabras {
                         }
                     }
             }
-
             
-        // }
+        }
             
 
         for (int i = 0; i < com.length; i++) {
@@ -84,10 +85,9 @@ public class palabras {
             }
         }
 
+        // mostramos el resultado 
+
         System.out.println("Has acertardo " + a + "/" + list.length );
         
-
-    
-
     }
 }
