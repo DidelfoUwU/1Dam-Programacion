@@ -19,49 +19,42 @@ public class Ejercicio01 {
         System.out.println("5. sin ti");
         int n = new Scanner(System.in).nextInt();
         
-        // creamos el reproductor 
+        // creamos el archivomp3 
 
-        
-        
+        ArchivoMP3 mu = null;
 
 
-        // utilizamos el swit canse
+        // utilizamos el swit case
 
         switch (n) {
             case 1:
-                System.out.println(canciones[n-1]);
-                ArchivoMP3 mu = new ArchivoMP3("C:/Users/Sergio/Music/jackson.mp3");
-                Reproductor re = new Reproductor(mu, false, false);
-                re.play();
+                System.out.println("Reproduciendo... " + canciones[n-1]);
+                 mu = new ArchivoMP3("C:/Users/Sergio/Music/jackson.mp3");
+
                 break;
             case 2:
-                System.out.println(canciones[n-1]);
+                System.out.println("Reproduciendo... " + canciones[n-1]);
                 mu = new ArchivoMP3("C:/Users/Sergio/Music/suitdruin.mp3");
-                re = new Reproductor(mu, false, false);
-                re.play();
                 break;
             case 3:
-                System.out.println(canciones[n-1]);
+                System.out.println("Reproduciendo... " + canciones[n-1]);
                 mu = new ArchivoMP3("C:/Users/Sergio/Music/otra navidad.mp3");
-                re = new Reproductor(mu, false, false);
-                re.play();
                 break;
             case 4:
-                System.out.println(canciones[n-1]);
+                System.out.println("Reproduciendo... " + canciones[n-1]);
                 mu = new ArchivoMP3("C:/Users/Sergio/Music/quedate.mp3");
-                re = new Reproductor(mu, false, false);
-                re.play();
                 break;
             case 5:
-                System.out.println(canciones[n-1]);
+                System.out.println("Reproduciendo... " + canciones[n-1]);
                 mu = new ArchivoMP3("C:/Users/Sergio/Music/sin ti.mp3");
-                re = new Reproductor(mu, false, false);
-                re.play();
                 break;
             default:
                 System.out.println("Ese numero no es valido");
                 break;
         }
+
+        Reproductor re = new Reproductor(mu, false, false);
+        re.play();
 
     }
 }
