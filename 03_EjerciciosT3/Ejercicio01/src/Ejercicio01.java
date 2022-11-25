@@ -17,9 +17,6 @@ public class Ejercicio01 {
         System.out.println("3. otra navidad");
         System.out.println("4. quedate");
         System.out.println("5. sin ti");
-
-
-
         int n = new Scanner(System.in).nextInt();
         
         // creamos el reproductor 
