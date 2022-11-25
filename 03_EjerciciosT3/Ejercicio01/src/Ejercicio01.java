@@ -12,6 +12,14 @@ public class Ejercicio01 {
 
         // le preguntamos al usuario un numero 
         System.out.println("Introduce el numero de la cancion que quieres oir");
+        System.out.println("1. jackson");
+        System.out.println("2. suitdruin");
+        System.out.println("3. otra navidad");
+        System.out.println("4. quedate");
+        System.out.println("5. sin ti");
+
+
+
         int n = new Scanner(System.in).nextInt();
         
         // creamos el reproductor 
