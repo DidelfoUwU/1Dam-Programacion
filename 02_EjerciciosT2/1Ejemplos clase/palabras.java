@@ -35,7 +35,7 @@ public class palabras {
         // creamos un bucle que pregunte al usuario por telcado las palabras, este bucle no se rompera a menos que
         // no queden mas palabras reservadas o el usuario introduzca x 
 
-        while (fin == false) {
+        while (fin == false){
 
             // pedimos que introduza una palabra por telcado 
 
@@ -54,7 +54,7 @@ public class palabras {
 
                     // comprobamos que la palabra introducida corresponda con alguna de la lista 
                 
-                    if (pala == "var") {
+                    if (pala == list[i]) {
 
                         // si la palabra es una palabra reservada la guardamos en una lista para luego imprimir todas las palabras correctas introducidas 
 
@@ -68,11 +68,11 @@ public class palabras {
 
                         if (a == list.length){
                             fin = true;
-                        
                         }
                     }
                 }
             }
+
         }
 
         // creamos un bucle que recorra la cadena en la que guardamos las palabras que acertamos y la imprimimos, evitando imprimir los espacios vacios 
