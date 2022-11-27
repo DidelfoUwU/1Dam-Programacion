@@ -44,7 +44,7 @@ public class palabras {
             
             // con el if si es x rompemos el while para finalizar el programa
             
-            if (pala == "x")  {
+            if (pala.equals("x"))  {
                 fin = true;
             }else{
 
@@ -54,7 +54,7 @@ public class palabras {
 
                     // comprobamos que la palabra introducida corresponda con alguna de la lista 
                 
-                    if (pala == list[i]) {
+                    if (pala.equals(list[i])) {
 
                         // si la palabra es una palabra reservada la guardamos en una lista para luego imprimir todas las palabras correctas introducidas 
 
@@ -75,13 +75,19 @@ public class palabras {
 
         }
 
+
+        System.out.println("==================================");
+        System.out.println("Las palabras que has acertado son:");
+        System.out.println("==================================");
+
+
         // creamos un bucle que recorra la cadena en la que guardamos las palabras que acertamos y la imprimimos, evitando imprimir los espacios vacios 
 
         for (int i = 0; i < com.length; i++) {
 
             // utilizamos este if para no imprimir los lugares vacios 
 
-            if (com[i] != ""){
+            if (!com[i].equals("")){
 
                 // imprimimos la lista de las palabras acertadas 
 
