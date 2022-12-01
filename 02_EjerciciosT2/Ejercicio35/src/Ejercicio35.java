@@ -8,7 +8,7 @@ public class Ejercicio35 {
         // creamos dos archovos mp3
         
         ArchivoMP3 ar1 = new ArchivoMP3("C:/Users/Sergio/Music/quedate.mp3");
-        ArchivoMP3 ar2 = new ArchivoMP3("C:/Users/Sergio/Music/sin ti.mp3");
+        ArchivoMP3 ar2 = new ArchivoMP3("C:/Users/Sergio/Music/quedate.mp3");
 
 
         // Compáralos con el signo == como si fuesen tipos básicos. ¿Qué sucede? 
@@ -33,17 +33,22 @@ public class Ejercicio35 {
         System.out.println(ar1.hashCode());
         System.out.println(ar2.hashCode());
 
-        // no coinciden 
+        // coinciden 
 
 
         // Crea un objeto Reproductor y muestra por pantalla 
         // la salida de su método toString. ¿Qué aparece?
 
 
-        Reproductor re = new Reproductor(null, false, false);
+        Reproductor re = new Reproductor(ar1, true, false);
 
-        System.out.println(re);
+        // imprimimos el to string 
+
+        System.out.println(re.toString());
         
+        // imprimimos el to strign del mp3 
+
+        System.out.println(ar1.toString());
 
 
     }
